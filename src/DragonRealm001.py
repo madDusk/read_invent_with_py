@@ -22,7 +22,7 @@ in which cave. The player must choose between the two.
     Read online for free:
         "Invent Your Own Computer Games with Python, 4th Edition"
         Chapter 5
-    Оригинальное решение :./InventWithPython_resources/dragon.py
+    Оригинальное решение :../src_original/dragon.py
 
     При объявлении функции и её вызове без параметров требуется всё равно
     использовать скобки. Иначе считает, что это переменная :(
@@ -74,16 +74,10 @@ def CheckCave( chooseCave, greedyDragon ) :
         DragonDo()
         print('Gives you his treasure')
 
-       ####################    START GAME    ########################
 print('####################    START GAME    ########################')
     
 while True :
     PrintIntro()
-  #********* Вариант раз
-    #choose =  GetChoose()
-    #greedydragon = random.randint(1,2)
-    #CheckCave( choose, greedydragon )
-  #********* Вариант два с подстановкой функций (и то же работает)
     CheckCave( GetChoose(), random.randint(1,2) )
     
     print('\n\nDo you want to play again? ( y(yes) or any key )')
