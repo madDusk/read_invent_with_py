@@ -1,0 +1,15 @@
+2018-08-09 23:31:41
+
+Опять провозился c Hangman и решил начать заново.
+
+>>> import string
+>>> dir( string )
+['Formatter', 'Template', '_ChainMap', '_TemplateMetaclass', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_re', '_string', 'ascii_letters', 'ascii_lowercase', 'ascii_uppercase', 'capwords', 'digits', 'hexdigits', 'octdigits', 'printable', 'punctuation', 'whitespace']
+
+stackoverflow рулит
+
+lower = str.lower
+lower('SoMe CaPiTaL LetTerS to Be LoWeRED')
+'some capital letters to be lowered'
+
+ 
